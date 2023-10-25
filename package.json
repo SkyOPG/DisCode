@@ -1,11 +1,26 @@
 {
-  "name": "discode",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "discode",
+	"version": "0.0.1",
+	"description": "A very cool way to make bots",
+	"main": "dist/src/mod.js",
+	"scripts": {
+		"start": "tsc && node dist/src"
+	},
+	"type": "module",
+	"keywords": [],
+	"author": "skyopg",
+	"license": "ISC",
+	"bin": {
+		"ss": "--no-warnings=ExperimentalWarning dist/src/cli.js"
+	},
+	"dependencies": {
+		"@types/node": "^20.8.4",
+		"@types/prompt-sync": "^4.2.1",
+		"colors": "^1.4.0",
+		"readline-sync": "^1.4.10",
+		"suppress-experimental-warnings": "^1.1.17"
+	},
+	"files": [
+		"dist"
+	]
 }

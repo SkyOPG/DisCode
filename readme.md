@@ -1,2 +1,2 @@
 # DisCode
-- a cool discord programming language!
+- a new way to make your discord bot easily!
